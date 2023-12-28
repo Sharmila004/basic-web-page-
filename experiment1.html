@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <frameset rows="20%, 60%,">
+      <frame name="top" src="part1.html" frameborder="1" />
+      <frame name="main" src="part2.html" frameborder="1" />
+    </frameset>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body
+    style="
+      background-image: url('birds/background.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    "
+  >
+    <table border="1">
+      <tr>
+        <td>Name</td>
+        <td>Picture</td>
+        <td>Fact</td>
+      </tr>
+      <tr>
+        <td>Bee Hummingbird</td>
+        <td>
+          <img src="birds/white bird.jpg" alt="Image of white bird" />
+        </td>
+        <td>World's loudest bird</td>
+      </tr>
+      <tr>
+        <td>Kingfisher</td>
+        <td>
+          <img src="birds/kingfisher.jpg" alt="Image of kingfisher" />
+        </td>
+        <td>World's colorful bird</td>
+      </tr>
+      <tr>
+        <td>Parrot</td>
+        <td>
+          <img src="birds/parrot.jpg" alt="Image of parrot" />
+        </td>
+        <td>World's greenest bird</td>
+      </tr>
+      <tr>
+        <td>Humming Bird</td>
+        <td>
+          <img src="birds/humming.jpg" alt="Image of humming bird" />
+        </td>
+        <td>World's smallest bird</td>
+      </tr>
+    </table>
+    <a href="https://stylesatlife.com/articles/types-of-birds/">Reference</a>
+    <h2>Smartest bird</h2>
+    <ul>
+      <li>Crow</li>
+      <li>Parrot</li>
+      <li>Clark's nutcracker</li>
+      <li>Rook</li>
+    </ul>
+
+    <h2>Rare birds</h2>
+    <ol>
+      <li>Kākāpō</li>
+      <li>Spix's macaw</li>
+      <li>Blue-eyed ground dove</li>
+      <li>Madagascar pochard</li>
+    </ol>
+
+    <div>
+      <h3>Tell us about your favorite bird</h3>
+      <form action="process.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br />
+        <label for="number">Register no:</label>
+        <input type="number" id="number" name="number" required /><br />
+        <label for="message">Message:</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="3"
+          cols="50"
+          required
+        ></textarea
+        ><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <marquee direction="right" behavior="scroll" scrollamount="4">
+      A bird is joy incarnate
+    </marquee>
+  </body>
+</html>
